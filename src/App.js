@@ -7,6 +7,7 @@ import axios from 'axios';
 import PromisePolyfill from 'promise-polyfill';
 
 //for internet explorer
+
 if (!window.Promise) {
   window.Promise = PromisePolyfill
 }
